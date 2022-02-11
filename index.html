@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <title>Newsletter</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="left"> 
+                <nav class="navbar">
+                    <a style="text-decoration: none" href="#"><img src="images/logo.png"><span class="logo-text">pineapple.</span></a>
+                    <div class="links">
+                        <ul>
+                            <li class="navbar-item"><a class="link" href="#">About</a></li>
+                            <li class="navbar-item"><a class="link" href="#">How it works</a></li>
+                            <li class="navbar-item"><a class="link" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="subscribe-text">
+                    <h1>Subscribe to newsletter</h1>
+                    <p>Subscribe to our newsletter and get 10% discount on pineapple glasses</p>
+                </div>
+
+                <div class="subscribe">
+                    <form name="form" action="submit.php" method="post">
+                        <input class="email" type="email" name="email" placeholder="Type your email address here..." required>
+                        <button type="submit" class="submit"><span class="arrow">&#8594</span></button>
+                    </form>
+
+                    <div class="error"></div>
+                </div>
+
+                <div class="tos">
+                    <label>
+                        <input class="checkbox" type="checkbox"><span class="tos-label">I agree to <a class="tos-link" href="#">terms of service</a></span>
+                    </label>
+                </div>
+
+                <hr class="space">
+
+                <div class="socials">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+
+            <div class="right"></div>
+        </div>
+    </body>
+</html>
