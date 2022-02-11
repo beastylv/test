@@ -273,6 +273,11 @@ input[type=checkbox]:checked {
     background: #CC0000;
 }
 
+.success {
+    padding-top: 130px;
+    padding-left: 140px;
+}
+
 @media (max-width: 756px) {
     h1 {
         font-family: Georgia;
