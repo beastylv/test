@@ -14,7 +14,7 @@ Magebit task website
 4. Done
 
 # Test site
-Test site is running on http://janis-jercens.magebithr.com/test/ (problems with running php)
+Test site is running on http://janis-jercens.magebithr.com
 
 # Limitations
 submit.php and list.php won't work unless mysql and php are running on the server.
